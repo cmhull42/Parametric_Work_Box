@@ -105,3 +105,6 @@ part = (
 
 cq.exporters.export(base, "workBox.stl")
 cq.exporters.export(lid, "workBoxLid.stl")
+
+cq.exporters.export(base, "workBox.svg")
+cq.exporters.export(lid, "workBoxLid.svg")
