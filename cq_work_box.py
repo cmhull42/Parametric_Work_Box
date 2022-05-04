@@ -106,5 +106,10 @@ part = (
 cq.exporters.export(base, "workBox.stl")
 cq.exporters.export(lid, "workBoxLid.stl")
 
-cq.exporters.export(base, "workBox.svg")
-cq.exporters.export(lid, "workBoxLid.svg")
+svgopt = {
+    "showHidden": True,
+    "showAxes": False
+}
+
+cq.exporters.export(base, "workBox.svg", opt=svgopt)
+cq.exporters.export(lid, "workBoxLid.svg", opt=svgopt)
